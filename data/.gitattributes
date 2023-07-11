@@ -1,8 +1,0 @@
-crashes_edit_df_2018_2023.csv.zip filter=lfs diff=lfs merge=lfs -text
-df_2018_2023_master.csv.zip filter=lfs diff=lfs merge=lfs -text
-people_edit_df_2018_2023.csv.zip filter=lfs diff=lfs merge=lfs -text
-people_edit_filtered_df_2018_2023.csv.zip filter=lfs diff=lfs merge=lfs -text
-vehicles_edit_df_2018_2023.csv.zip filter=lfs diff=lfs merge=lfs -text
-vehicles_edit_filtered_df_2018_2023.csv.zip filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-path filter=lfs diff=lfs merge=lfs -text
