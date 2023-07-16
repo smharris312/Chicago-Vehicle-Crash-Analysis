@@ -23,7 +23,11 @@ The Chicago Data Portal provides the public with datasets on traffic crashes fro
 1.   [Crashes](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if) contains data on each traffic crash on that takes place in the city and falls under the jurisdiction of the Chicago Police Department.
 2.   [People](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d) contains data on people involved in a crash and if any injuries were sustained.
 
-## Merging and Filtering
+### Data Limitations
+
+Incomplete records containting null values as well as values that appeared to be obvious human clerical errors (such as -177-year-old or a 3-year-old drunk driver) necessitated cleaning and imputation.
+
+## EDA, Merging and Filtering
 
 Our initial 2018 - 2023 dataset contained ~1.3 million records of people involved in ~700K car crashes.
 
@@ -64,14 +68,6 @@ Filtering for crashes involving **impaired** people resulted in ~13.3K people in
     * The 'target' created a highly imbalanced data set   
     
 
-## Data Limitations
-
-Incomplete records containting null values as well as values that appeared to be obvious human clerical errors (such as -177-year-old or a 3-year-old drunk driver) necessitated cleaning and imputation.
-
-## EDA
-
-
-
 ## Models
 
 
@@ -82,7 +78,9 @@ Incomplete records containting null values as well as values that appeared to be
 
 ## Next Steps
 
-
+* Analyze high-volumne crash areas
+* Examine if the treating hospital has impact on survival rate
+* Analyze the people data for insights on repeat offenders
 
 # For More Information
 
