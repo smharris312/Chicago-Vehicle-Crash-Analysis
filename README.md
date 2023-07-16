@@ -84,6 +84,10 @@ Filtering for crashes involving **impaired** people resulted in ~13.3K people in
 
 # For More Information
 
+See the full analysis in the [Jupyer Notebook](Phase3_Project_Master_Dataset_Build_people_crashes.ipynb) or review [this presentation]
 
+[Morgan Goode](https://www.linkedin.com/in/morgangoode/)
+[Jimmy McLaughlin](https://www.linkedin.com/in/james-mclaughlin-wm/)
+[Sean Harris](https://www.linkedin.com/in/sean-harris-data-sci-and-finance/)
 
 # Repository Structure
