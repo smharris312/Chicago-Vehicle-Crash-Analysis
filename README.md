@@ -42,7 +42,7 @@ Filtering for crashes involving **impaired** people resulted in ~13.3K people in
  * People whose physical condition was determined to have contributed to the accident and was described as having involved substances (e.g.: alcohol, drugs, medication, etc.).
  * Crashes where the primary and/or secondary cause was due to drugs or alcohol.
 
-### Primary features of interest:
+#### Primary features of interest:
 * From people data:
   * Physical condition
   * Blood alcohol content and test status (e.g.: taken, not offered, refused etc.)
@@ -67,14 +67,23 @@ Filtering for crashes involving **impaired** people resulted in ~13.3K people in
   * Has serious injury (Y/N) <-- `OUT TARGET COLUMN`
     * The 'target' created a highly imbalanced data set   
     
-
 ## Models
 
 
 
+### Findings from models:
+
+* An impaired driver has 13% higher odds of fatality or severe injury
+* Drivers have 50% less odds of death or severe injury
+* Men have 9% higher odds of death or severe injury from a crash than women
+
 # Conclusion
 
+To reduce serious and ftal accident involving intoxication Vision Zero Chicago should:
 
+* Consider change to hit and run policy
+* Follow up with survivors
+* PSA targeted at passengers and cyclists
 
 ## Next Steps
 
@@ -84,10 +93,19 @@ Filtering for crashes involving **impaired** people resulted in ~13.3K people in
 
 # For More Information
 
-See the full analysis in the [Jupyer Notebook](Phase3_Project_Master_Dataset_Build_people_crashes.ipynb) or review [this presentation]
+See the full analysis in the [Jupyer Notebook](Phase3_Project_Master_Dataset_Build_people_crashes.ipynb) or review [this presentation](Chicago_Crash_Data_Presentation.pdf).
 
-[Morgan Goode](https://www.linkedin.com/in/morgangoode/)
-[Jimmy McLaughlin](https://www.linkedin.com/in/james-mclaughlin-wm/)
-[Sean Harris](https://www.linkedin.com/in/sean-harris-data-sci-and-finance/)
+Technical Lead: [Morgan Goode](https://www.linkedin.com/in/morgangoode/)
+Presentation Lead: [Jimmy McLaughlin](https://www.linkedin.com/in/james-mclaughlin-wm/)
+Github Lead: [Sean Harris](https://www.linkedin.com/in/sean-harris-data-sci-and-finance/)
 
-# Repository Structure
+## Repository Structure
+```
+├── data
+├── images
+├── .gitattributes
+├── .gitignore
+├── Chicago_Crash_Data_Presentation.pdf
+├── Phase3_Project_MAster_Dataset_Build_people_crashes.ipynb
+└── README.md
+```
