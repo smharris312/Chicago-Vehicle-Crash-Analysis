@@ -96,7 +96,9 @@ To reduce serious and ftal accident involving intoxication Vision Zero Chicago s
 See the full analysis in the [Jupyer Notebook](Phase3_Project_Master_Dataset_Build_people_crashes.ipynb) or review [this presentation](Chicago_Crash_Data_Presentation.pdf).
 
 Technical Lead: [Morgan Goode](https://www.linkedin.com/in/morgangoode/)
+
 Presentation Lead: [Jimmy McLaughlin](https://www.linkedin.com/in/james-mclaughlin-wm/)
+
 Github Lead: [Sean Harris](https://www.linkedin.com/in/sean-harris-data-sci-and-finance/)
 
 ## Repository Structure
@@ -109,3 +111,5 @@ Github Lead: [Sean Harris](https://www.linkedin.com/in/sean-harris-data-sci-and-
 ├── Phase3_Project_MAster_Dataset_Build_people_crashes.ipynb
 └── README.md
 ```
+
+![chicago-flag](./images/chicago-flag.jpg)
