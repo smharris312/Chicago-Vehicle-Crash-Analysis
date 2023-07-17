@@ -67,9 +67,11 @@ Filtering for crashes involving **impaired** people resulted in ~13.3K people in
   * Has serious injury (Y/N) <-- `OUT TARGET COLUMN`
     * The 'target' created a highly imbalanced data set   
     
-## Models
+## Findings from models:
 
-
+* An impaired driver has 13% higher odds of fatality or severe injury
+* Drivers have 50% less odds of death or severe injury
+* Men have 9% higher odds of death or severe injury from a crash than women
 
 ### Findings from models:
 
